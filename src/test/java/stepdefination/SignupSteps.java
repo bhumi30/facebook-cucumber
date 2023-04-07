@@ -69,7 +69,7 @@ public class SignupSteps {
 		String expectedString = driver.findElement(By.xpath("//div[@class='_5633 _5634 _53ij']")).getText();
 		Assert.assertEquals(expectedString, actualString);
 		
-		driver.close();
+		//driver.close();
 	}
 
 }
