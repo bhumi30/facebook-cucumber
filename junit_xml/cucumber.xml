@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.861" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="facebook signup features" name="1 successful signup" time="17.646">
+<system-out><![CDATA[
+Given I am opening facebook.com.............................................passed
+Then I click on the creaate account link....................................passed
+And I enter lastname mobile number password.................................passed
+Then I enter my birth date..................................................passed
+Then I click on signup button...............................................passed
+And I verify the error message "what's your name"...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

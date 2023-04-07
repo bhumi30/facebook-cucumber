@@ -1,0 +1,102 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2023-04-07T21:47:07.609Z",
+				"line": 3,
+				"name": "1 successful signup",
+				"description": "",
+				"id": "facebook-signup-features;1-successful-signup",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 4174171000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "I am opening facebook.com",
+						"match": {
+							"location": "stepdefination.SignupSteps.i_am_opening_facebook_com()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 2093685000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "I click on the creaate account link",
+						"match": {
+							"location": "stepdefination.SignupSteps.i_click_on_the_creaate_account_link()"
+						},
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 4328925000,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "I enter lastname mobile number password",
+						"match": {
+							"location": "stepdefination.SignupSteps.i_enter_lastname_mobile_number_password()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 4477144000,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "I enter my birth date",
+						"match": {
+							"location": "stepdefination.SignupSteps.i_enter_my_birth_date()"
+						},
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 2132419000,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "I click on signup button",
+						"match": {
+							"location": "stepdefination.SignupSteps.i_click_on_signup_button()"
+						},
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 298861000,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "I verify the error message \"what's your name\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"what's your name\"",
+									"offset": 27
+								}
+							],
+							"location": "stepdefination.SignupSteps.i_verify_the_error_message(java.lang.String)"
+						},
+						"keyword": "And "
+					}
+				]
+			}
+		],
+		"name": "facebook signup features",
+		"description": "",
+		"id": "facebook-signup-features",
+		"keyword": "Feature",
+		"uri": "file:src/test/java/feature/signup.feature",
+		"tags": []
+	}
+]
